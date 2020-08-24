@@ -27,20 +27,21 @@
   
 </head>
 
-<body>
+<body onload="SetKill()">
   <!-- <h1>Test</h1> -->
  
    
-   <div class="preloader">
+   <div class="preloader" id="preloader">
      
        <div>
-         <div class="logo">
+         <div class="spinner" id="spinner"></div>
+         <div class="logo" id="prLogoBox">
            <!--Pre-loader-logo-->
-           <img src="res/logo256.png" alt="logo" draggable="false" class="noselect" />
+           <img src="res/logo256.png" id="prLogo" alt="logo" draggable="false" class="noselect" />
          </div>
          
        </div>
-       <div class="dot-cluster">
+       <div class="dot-cluster" id="dots">
          <div class="dot dot1 dot1ani"></div>
          <div class="dot dot2 dot2ani"></div>
          <div class="dot dot3 dot3ani"></div>
