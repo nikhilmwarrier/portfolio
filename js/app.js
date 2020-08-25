@@ -1,5 +1,6 @@
+
 function SetKill() {
-  setTimeout(2000, KillLoader());
+  setTimeout(KillLoader, 000);
 }
 
 function KillLoader() {
